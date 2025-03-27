@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thisal Abeyrathna - Portfolio</title>
+    <link rel="icon" type="image/jpg" sizes="128x128" href="x.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">TA.</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting" data-aos="fade-up">Hello, I'm</span>
+                    <h1 class="hero-name" data-aos="fade-up" data-aos-delay="100">Thisal Abeyrathna</h1>
+                    <h2 class="hero-title" data-aos="fade-up" data-aos-delay="200">I'm a <span id="typed-text"></span>
+                    </h2>
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                        Passionate about creating innovative automation solutions and pushing the boundaries
+                        of technology to solve real-world problems.
+                    </p>
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                        <a href="https://linkedin.com/in/thisal-abeyrathna/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/ThisalAbeyrathna" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://wa.me/+9478892267" class="social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="cv-button-wrapper" data-aos="fade-up" data-aos-delay="500">
+                        <a href="cv/Thisal_Abeyrathna_Intern.pdf" class="cv-button" download>
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                    <img src="image/Thisal.png" alt="Thisal Abeyrathna">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div id="lottie-animation"></div> <!-- This replaces the image -->
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Industrial Automation Engineer & IOT Developer</h3>
+                    <div class="about-description">
+                        <p>
+                            As an undergraduate at the University of Kelaniya Faculty of Technology,
+                            I'm pursuing an honors degree in Industrial Automation & Robotics.
+                            My passion lies in creating innovative solutions that bridge the gap between
+                            theoretical knowledge and practical applications.
+                        </p>
+                        <p>
+                            With expertise in sensor technology, process control, and automation systems,
+                            I'm constantly exploring new ways to improve industrial processes and create
+                            efficient automated solutions.
+                        </p>
+                        <p>
+                            My project portfolio demonstrates my ability to tackle complex challenges
+                            and deliver practical solutions that make a real difference in the field
+                            of automation and control systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Latest <span class="highlight">Projects</span></h2>
+
+            <div class="category-filters" data-aos="fade-up">
+                <button class="category-btn active" data-category="All">All</button>
+                <button class="category-btn" data-category="Automation">Automation</button>
+                <button class="category-btn" data-category="IoT">IoT</button>
+                <button class="category-btn" data-category="Other">Other</button>
+                
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    <script>
+        var animation = lottie.loadAnimation({
+          container: document.getElementById('lottie-animation'), 
+          renderer: 'svg', 
+          loop: true, 
+          autoplay: true, 
+          path: 'script5.json' // Adjust path if needed
+        });
+      </script>
+</body>
+
+</html>
