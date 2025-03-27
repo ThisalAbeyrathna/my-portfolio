@@ -190,8 +190,8 @@ body {
   max-width: 500px;
   border-radius: 20px;
   box-shadow: 
-    0 0 15px #00ff99, 
-    0 0 30px #00ccff;
+    0 0 15px #00ff08c5, 
+    0 0 30px #00ccff74;
   transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -226,13 +226,13 @@ body {
 .about-text h3 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
-  text-align: justify;
+  text-align: center;
   color: var(--primary);
 }
 
 .about-description p {
   margin-bottom: 1rem;
-  text-align: justify;
+  text-align: center;
   color: #999;
 
 }
