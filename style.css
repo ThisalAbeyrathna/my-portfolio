@@ -232,7 +232,7 @@ body {
 
 .about-description p {
   margin-bottom: 1rem;
-  text-align: center;
+  text-align: justify;
   color: #999;
 
 }
