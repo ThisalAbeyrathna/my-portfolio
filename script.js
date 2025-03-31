@@ -57,7 +57,15 @@ const projects = [
         description: "The Automatic Vertical Reciprocating Conveyor System is designed to efficiently transport materials between different levels in an industrial or warehouse setting. This system automates the vertical movement of goods, eliminating the need for manual handling and improving workflow efficiency.This project demonstrates expertise in industrial automation, PLC programming, sensor integration, and mechanical design, making it an essential addition to modern automated logistics and manufacturing environments.",
         link: "https://drive.google.com/drive/folders/1wBtpg9unFrZTLJqskuqMZ9MK1TIJGxKa?usp=sharing",
         technologies: ["FluidSim", "Arduino Uno", "Sensors", "Actuators"]
-    }
+    },
+    {
+        title: "Modeling starmie and staryu",
+        category: "Drawings",
+        image: "image/Pokemon-Staryu-and-Starmie.jpg",
+        description: "Designed and modeled Starmie and Staryu, inspired by the popular Pokémon characters, using SolidWorks. The models showcase a high level of detail, from the sharp-edged star shapes to the intricate textures that reflect the unique features of each character. This project demonstrates my ability to combine creativity with engineering precision, utilizing SolidWorks to bring iconic designs to life in a 3D digital space.",
+        link: "https://drive.google.com/drive/folders/1GPTRquIf5eImmppr7ZiHRfoYqx497Mty?usp=sharing",
+        technologies: ["SolidWorks", "3D Modeling", "Design"]
+    },
 ];
 
 // Header scroll effect
