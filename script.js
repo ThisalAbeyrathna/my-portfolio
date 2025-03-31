@@ -7,7 +7,7 @@ AOS.init({
 
 // Initialize Typed.js
 new Typed('#typed-text', {
-    strings: ['Automation Engineer', 'IoT Developer', 'Robotics Enthusiast'],
+    strings: ['an Automation Engineer', 'an IoT Developer', 'a Robotics Enthusiast'],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true,
