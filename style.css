@@ -160,13 +160,6 @@ body {
   transform: translateY(-5px);
 }
 
-.cv-button-wrapper {
-  display: flex;
-  gap: 40px; /* Adjust the space between buttons */
-  margin-top: 20px; /* Adjust spacing from other elements */
-}
-
-
 .cv-button {
   display: inline-flex;
   align-items: center;
