@@ -66,16 +66,6 @@ const projects = [
         link: "https://drive.google.com/drive/folders/1GPTRquIf5eImmppr7ZiHRfoYqx497Mty?usp=sharing",
         technologies: ["SolidWorks", "3D Modeling", "Design"]
     },
-
-    {
-        title: "PLC-HMI Based Temperature-Controlled VFD System",
-        category: "Automation",
-        image: "image/VFD.png",
-        description: "This project controls motor speed based on temperature using a Siemens S7-300 PLC and HMI. An analog temperature sensor input is scaled with FC105 to adjust the VFD. The HMI displays real-time temperature, VFD status, and includes start/stop controls via PROFIBUS-DP communication.",
-        link: "https://drive.google.com/drive/folders/1XPKlVRoB5NBKkwFixEHA4TBGsRAfMrDw?usp=sharing",
-        technologies: ["Siemens S7-300", "Ladder Logic", "HMI", "VFD", "WinCC Flexible", "Siemens SIMATIC Manager (Step 7)", "PROFIBUS-DP Communication", "FC105 Scaling Block"]
-
-    },
 ];
 
 // Header scroll effect
